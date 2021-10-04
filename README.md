@@ -7,7 +7,7 @@ In order to run TB-DROP on Windows, we configured it into a Docker image, so tha
 Make sure that your computer's CPU supports virtualisation and WSL2 is installed. In regard to install WSL2, please 
 refer to the following tutorial:  
 <https://aka.ms/wsl2kernel>  
-After completing the installation of WSL2, you can mount your preferred linux system on WSL2 in the Microsoft Store, and
+After completing the installation of WSL2, you can install your preferred linux system on WSL2 in the Microsoft Store, and
 Unbuntu 20.04 is highly recommonded, because TB-DROP is developed based on Unbuntu 20.04.  
 ### Download  
 `git clone https://github.com/nottwy/TB-DROP`    
