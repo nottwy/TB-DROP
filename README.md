@@ -30,7 +30,7 @@ accessing localhost.
 The `path_to_store_container` after `-v` must be absolute path.   
 When `finish` appears, installation has been completed, and then Docker will return the ID of the container, which is used to
 perform a series of operations, such as starting and deleting containers.
-## Quick Start
+### Start TB-DROP
 Visit `localhost:host port` in the browser, then you will see TB-DROP.
 ## Restart 
 All data was saved in the container, so that you must restart the container created before rather than create a new 
