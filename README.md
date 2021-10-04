@@ -22,7 +22,8 @@ Run `docker images`, find and remember the image ID of the image created before.
 To store the container, please create a folder other than the directory where the image is stored, and then move 
 `pipeline.tar.gz` and `prepare_env.sh` to this folder. Then run:   
   
-`docker run -p (host_port:8080) -v path_to_store_container:/root/pipeline -itd image_ID /bin/bash -c "cd/root/pipeline;bash prepare_env.sh;touch finish;/bin/bash"`  
+`docker run -p (host_port:8080) -v path_to_store_container:/root/pipeline -itd image_ID /bin/bash -c "cd/root/pipeline;bash prepare_env.sh;touch finish;/bin/bash"`    
+
 Create container may require 5-10 minutes.  
 - Parameters in brackets after `-p` can be freely specified. However, please remember the ports you specified, it's required when accessing localhost.   
 - The `path_to_store_container` after `-v` must be absolute path.   
