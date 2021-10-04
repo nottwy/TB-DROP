@@ -42,8 +42,8 @@ container when you want to use TB-DROP again. The steps of restarting TB-DROP we
 `nohup python3 /root/pipeline/tb-visualization/03.server/flask/run.py &> /dev/null &`  
 4. Close the terminal and visit `localhost:host port` in the browser.
 ## Manual of TB-DROP  
-Uploading:  
+##### Uploading:  
 Fill in the sample ID and select the corresponding fastq files of the sample.Click "Submit".  
-Analyzing:  
+##### Analyzing:  
 Select the samples you want to analyze and Click "Start Analysis".The status of sample will turn to `finished` when 
 analysis is done. Click the sample ID then you will be redirected to the report page.
