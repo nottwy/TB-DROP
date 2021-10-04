@@ -9,7 +9,7 @@ refer to the following tutorial:
   
   <https://aka.ms/wsl2kernel>  
   
-After completing the installation of WSL2, you can install your preferred linux system on WSL2 in the Microsoft Store, and
+- You can install your preferred linux system on WSL2 in the Microsoft Store after completing the installation of WSL2, and
 Unbuntu 20.04 is highly recommonded, because TB-DROP is developed based on Unbuntu 20.04.  
 ### Download  
 `git clone https://github.com/nottwy/TB-DROP`    
