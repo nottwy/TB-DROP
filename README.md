@@ -35,12 +35,12 @@ Visit `localhost:host port` in the browser, then you will see TB-DROP.
 ## Restart 
 All data was saved in the container, so that you must restart the container created before rather than create a new 
 container when you want to use TB-DROP again. The steps of restarting TB-DROP were listed below:  
-1.Start Docker and launch the container created before in the container tab.  
-2.Click the CLI botton to open a terminal.  
-3.Run the following commands:  
+1. Start Docker and launch the container created before in the container tab.  
+2. Click the CLI botton to open a terminal.  
+3. Run the following commands:  
 `service mysql start`  
 `nohup python3 /root/pipeline/tb-visualization/03.server/flask/run.py &> /dev/null &`  
-4.Close the terminal and visit `localhost:host port` in the browser.
+4. Close the terminal and visit `localhost:host port` in the browser.
 ## Manual of TB-DROP  
 Uploading:  
 Fill in the sample ID and select the corresponding fastq files of the sample.Click "Submit".  
