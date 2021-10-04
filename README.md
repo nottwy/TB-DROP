@@ -3,7 +3,7 @@
 ### Docker Installation
 TB-DROP integrates with numbers of softwares commonly used in bioinformatics research, which needs to be run on linux. 
 In order to run TB-DROP on Windows, we configured it into a Docker image, so that installing Docker is a must.
-#### Notice:
+##### Notice:
 Make sure that your computer's CPU supports virtualisation and WSL2 is installed. In regard to install WSL2, please 
 refer to the following tutorial:  
 <https://aka.ms/wsl2kernel>  
@@ -16,7 +16,7 @@ When download is finished, please extract the compressed package to specified di
 Launch command line mode and go into the folder with `Dockerfile`, then run:  
 `docker build -t name_of_image`  
 Run `docker images`, find and remember the image ID of the image created before.
-#### Notice:
+##### Notice:
 No capital letters in the name.
 ### Create Container & Run TB-DROP
 To store the container, please create a folder other than the directory where the image is stored, and then move 
@@ -24,7 +24,7 @@ To store the container, please create a folder other than the directory where th
 `docker run -p (host_port:8080) -v path_to_store_container:/root/pipeline -itd image_ID /bin/bash -c "cd 
 /root/pipeline;bash prepare_env.sh;touch finish;/bin/bash"`  
 Create container may require 5-10 minutes.
-#### Notice:
+##### Notice:
 Parameters in brackets after `-p` can be freely specified. However, please remember the ports you specified, it's required when 
 accessing localhost.   
 The `path_to_store_container` after `-v` must be absolute path.   
