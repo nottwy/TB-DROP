@@ -46,3 +46,4 @@ All data was saved in the container, so that you must restart the container crea
 Fill in the sample ID and select the corresponding fastq files of the sample.Click `Submit`.  
 ##### Analyzing:  
 Select the samples you want to analyze and Click `Start Analysis`.The status of sample will turn to `finished` when analysis is done. Click the sample ID then you will be redirected to the report page.
+
