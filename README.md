@@ -8,9 +8,9 @@ TB-DROP integrates with numbers of softwares commonly used in bioinformatics res
   
 - You can install your preferred linux system on WSL2 in the Microsoft Store after completing the installation of WSL2, and Unbuntu 20.04 is highly recommonded, because TB-DROP is developed based on Unbuntu 20.04.  
 ### Download  
-Please download all files required for TB-DROP installation from our recent release.
+Please create a folder `Docker` and download downlocad all files required for TB-DROP ( `Dockerfile`, `pipeline.tar.gz` and `prepare_env.sh` ) to this directory from our recent release.
 ### Create Image
-Launch command line mode and go into the folder with `Dockerfile`, then run: 
+Launch command line mode and go into the folder with `Docker`, then run: 
    
 `docker build -t name_of_image`    
 
