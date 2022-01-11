@@ -10,7 +10,7 @@ TB-DROP integrates with numbers of softwares commonly used in bioinformatics res
 ### Download  
 Please create a folder `Docker` and download downlocad all files required for TB-DROP ( `Dockerfile`, `pipeline.tar.gz` and `prepare_env.sh` ) to this directory from our recent release.
 ### Create Image
-Launch command line mode and go into the folder with `Docker`, then run: 
+Launch command line mode and go into the folder `Docker`, then run: 
    
 `docker build -t name_of_image`    
 
