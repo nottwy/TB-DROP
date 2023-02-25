@@ -27,7 +27,7 @@ Create container may require 5-10 minutes.
 - The `path_to_store_container` after `-v` must be absolute path.   
 - When `finish` appears, installation has been completed, and then Docker will return the ID of the container, which is used to perform a series of operations, such as starting and deleting containers.
 ### Start TB-DROP
-Visit `local host:host port` in the browser, then you will see TB-DROP.
+Visit `localhost:host port` in the browser, then you will see TB-DROP.
 ## Restart 
 All data was saved in the container, so that you must restart the container created before rather than create a new container when you want to use TB-DROP again. The steps of restarting TB-DROP were listed below:  
 1. Start Docker and launch the container created before in the container tab.  
