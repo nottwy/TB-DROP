@@ -3,13 +3,10 @@
 TB-DROP integrates with numbers of softwares commonly used in bioinformatics research, which needs to be run on linux. To simplify the installation of TB-DROP and its dependencies, we packaged TB-DROP into a Docker image, so that TB-DROP could be used on any operating system that Docker supports.
 ### Docker Installation
 Therefore, users must install Docker first. The installation of Docker could refer to the guideline in the official website of Docker (https://docs.docker.com/engine/install/).
-- Make sure that your computer's CPU supports virtualisation and WSL2 is installed. In regard to install WSL2, please refer to the following tutorial:  
-  
-<https://aka.ms/wsl2kernel>  
-  
+- Make sure that your computer's CPU supports virtualisation and WSL2 is installed. In regard to install WSL2, please refer to the following tutorial (https://aka.ms/wsl2kernel):  
 - You can install your preferred linux system on WSL2 in the Microsoft Store after completing the installation of WSL2, and Ubuntu 20.04 is highly recommonded, because TB-DROP is developed based on Ubuntu 20.04.  
 ### Download  
-Please create a folder `Docker` and downlocad all files required for TB-DROP ( `Dockerfile`, `pipeline.tar.gz` and `prepare_env.sh` ) to this directory from our recent release.
+Please create a folder `Docker` and downlocad all files required for TB-DROP ( `Dockerfile`, `pipeline.tar.gz` and `prepare_env.sh` ) to this directory from our latest release.
 ### Create Image
 Launch command line mode and go into the folder `Docker`, then run: 
    
