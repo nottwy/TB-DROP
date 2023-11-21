@@ -1,6 +1,6 @@
 # **_TB-DROP_**
 ## Installation
-TB-DROP integrates with numbers of softwares commonly used in bioinformatics research, which needs to be run on linux. To simplify the installation of TB-DROP and its dependencies, we packaged TB-DROP into a Docker image, so that TB-DROP could be used on any operating system that Docker supports.
+TB-DROP integrates with numbers of softwares commonly used in bioinformatics research, which needs to be run on linux. To simplify the installation of TB-DROP and its dependencies, we packaged TB-DROP into a Docker image, so that users needn't resolve the complex configuration of various softwares and TB-DROP could be used on any operating system that Docker supports.
 ### Docker Installation
 Therefore, users must install Docker first. The installation of Docker could refer to the guideline in the official website of Docker (https://docs.docker.com/engine/install/). 
 Some key points are listed below:
