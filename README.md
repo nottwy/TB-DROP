@@ -24,7 +24,7 @@ To store the container, please create a folder other than the directory where th
   
 `docker run -p host_port:8080 -v path_to_store_container:/root/pipeline -itd image_ID /bin/bash -c "cd /root/pipeline;bash prepare_env.sh;touch finish;/bin/bash"`    
 
-Creating a container for the first time takes a relatively long time because you need to decompress the compressed file 'pipeline.tar.gz' and prepare the environment.
+Creating a container for the first time takes a relatively long time because TB-DROP needs to decompress the file 'pipeline.tar.gz' and prepare the environment.
 - Parameters 'host_port' after `-p` can be freely specified. However, please remember the ports you specified, it's required when accessing the TB-DROP through localhost:host_port.   
 - The `path_to_store_container` after `-v` must be absolute path.   
 - When `finish` appears, installation has been completed, and then Docker will return the ID of the container, which is used to perform a series of operations, such as starting and deleting containers.
