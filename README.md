@@ -1,4 +1,4 @@
-# **_TB-DROP_**
+# **_TB-DROP_** aims the goal to end the global TB epidemic by 2030, which has been adopted by all Member States of the United Nations (UN) and the World Health Organization (WHO).
 TB-DROP is an end-to-end, user-friendly, deep learning-based drug resistance prediction platform of *Mycobacterium tuberculosis* utilizing whole genome mutations.
 ## Installation
 TB-DROP integrates with numbers of softwares commonly used in bioinformatics research, which needs to be run on linux. To simplify the installation of TB-DROP and its dependencies, we packaged TB-DROP into a Docker image, so that users needn't resolve the complex configuration of various softwares and TB-DROP could be used on any operating system that Docker supports.
