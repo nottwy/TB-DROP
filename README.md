@@ -41,7 +41,7 @@ All data was saved in the container, so that you must restart the container crea
 &emsp; &emsp;`nohup python3 /root/pipeline/tb-visualization/03.server/flask/run.py &> /dev/null &`  
   
 4. Close the terminal and visit `localhost:host port` in the browser.
-## Manual of TB-DROP  
+## Usage of TB-DROP  
 ##### Uploading:  
 Fill in the sample ID and select the corresponding fastq files of the sample.Click `Submit`.  
 ##### Analyzing:  
