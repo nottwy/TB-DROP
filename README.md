@@ -10,7 +10,8 @@ Some key points are listed below:
 - Make sure that your computer's CPU supports virtualisation and WSL2 is installed. In regard to install WSL2, please refer to the following tutorial (https://aka.ms/wsl2kernel):  
 - You can install your preferred linux system on WSL2 in the Microsoft Store after completing the installation of WSL2, and Ubuntu 20.04 is highly recommonded, because TB-DROP is developed based on Ubuntu 20.04.  
 ### Download  
-Please create a folder `Docker` and downlocad all files required for TB-DROP ( `Dockerfile`, `pipeline.tar.gz` and `prepare_env.sh` ) to this directory from our latest release.
+Please create a folder `Docker` and downlocad all files required for TB-DROP ( `Dockerfile`, `pipeline.tar.gz` and `prepare_env.sh` ) to this directory from our latest release. 
+Note Well: All files should be downloaded from the Releases page of github rather than the homepage of this repository because the files displayed at the homepage are only part of the whole files. The reason why we don't upload all files to the homepage is some files are too large to upload to the homepage.
 ### Create Image
 Launch command line mode and go into the folder `Docker`, then run: 
    
